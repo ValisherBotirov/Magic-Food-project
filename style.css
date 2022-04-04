@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.box--main {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.bold--header {
+  font-size: 32px;
+  padding: 15px 0;
+  font-family: sans-serif;
+}
+
+.title--p {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.bold--orange {
+  font-size: 25px;
+  color: rgba(225, 149, 7, 0.942);
+  padding-top: 10px;
+}
+
+.box--input {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.input {
+  display: inline-block;
+  height: 40px;
+  width: 440px;
+  border: 1px solid rgb(181, 120, 6);
+  border-radius: 20px 0 0 20px;
+  padding: 5px 20px;
+  outline: none;
+  font-size: 18px;
+}
+
+.input::placeholder {
+  color: rgb(181, 120, 6);
+}
+
+.btn--search {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: rgb(181, 120, 6);
+  font-size: 18px;
+}
+
+/* render html */
+.boxApi__group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-rows: 500px;
+}
+
+.boxApi--item {
+  border-radius: 10px;
+  box-shadow: 0 0px 1.4px;
+}
+
+.imgFood {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.item--box {
+  text-align: center;
+}
+
+.food--name {
+  font-size: 22px;
+  font-weight: 550;
+  padding: 25px;
+}
+
+.btnRetsep {
+  display: inline-block;
+  height: 40px;
+  border-radius: 20px;
+  background-color: brown;
+  border: none;
+  width: 180px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* render popup */
+.popup__box {
+  position: relative;
+  width: 60vw;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: brown;
+  color: #fff;
+  z-index: 10;
+  transform: translateY(-100%);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.close--popup {
+  position: absolute;
+  color: black;
+  top: 5px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.popup--name {
+  font-size: 26px;
+  padding: 5px 0;
+  padding-bottom: 15px;
+}
+
+.btn--popup {
+  display: inline-block;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: brown;
+}
+
+.popup__text--retsep {
+  padding: 15px 5px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.popup__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid yellow;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.btn--youtobe {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.btn--youtobe:hover {
+  background-color: black;
+  border: none;
+}
